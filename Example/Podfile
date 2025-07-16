@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'FoundationExtra_Example' do
+  pod 'FoundationExtra', :path => '../'
+
+  target 'FoundationExtra_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
