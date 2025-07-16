@@ -1,9 +1,12 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '12.0'
 
 target 'FoundationExtra_Example' do
   pod 'FoundationExtra', :path => '../'
+  
+  pod 'SnapUI'
+  pod 'UIKitExtra'
 
   target 'FoundationExtra_Tests' do
     inherit! :search_paths

@@ -7,12 +7,21 @@
 //
 
 import UIKit
+import FoundationExtra
+import SnapUI
+import UIKitExtra
+
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let v: UIView = configure(.init()) { view in
+            view.set.background(.random)
+        }
+        v.add(to: view)
+            .margins()
     }
 
     override func didReceiveMemoryWarning() {

@@ -1,0 +1,31 @@
+PODS:
+  - FoundationExtra (1.0.0)
+  - SnapKit (5.6.0)
+  - SnapUI (1.1.0):
+    - SnapKit (~> 5.6.0)
+  - UIKitExtra (1.0.0)
+
+DEPENDENCIES:
+  - FoundationExtra (from `../`)
+  - SnapUI
+  - UIKitExtra
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+    - SnapUI
+    - UIKitExtra
+
+EXTERNAL SOURCES:
+  FoundationExtra:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FoundationExtra: 07bc5ce32da3060f5200959ff595a348e7189b5b
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SnapUI: af92776ddc8cfefbd7adec82ed9263b0212e1710
+  UIKitExtra: bde0f57981b093dd9dd6cccbcf9a42bab7e46367
+
+PODFILE CHECKSUM: 53bb108e6cf8a7d6ad9081875c03c9419dfa5bee
+
+COCOAPODS: 1.16.1

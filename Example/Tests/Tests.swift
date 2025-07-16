@@ -1,5 +1,4 @@
 import XCTest
-import FoundationExtra
 
 class Tests: XCTestCase {
     
